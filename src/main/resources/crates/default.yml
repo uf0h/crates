@@ -1,0 +1,54 @@
+crate-identifier: "default"
+
+crate-hologram:
+  enabled: true
+  lines:
+    - "&a&lDEFAULT CRATE"
+    - "{empty}"
+    - "&fGet keys with &b/default"
+    - "{empty}"
+    - "&eLeft-Click to &e&lPREVIEW"
+
+crate-gui:
+  name: "Default Crate"
+  size: 54
+  placeholders:
+    enabled: true
+    item:
+      name: ""
+      lore: []
+      material: "STAINED_GLASS_PANE"
+      data: 7
+  items:
+    4:
+      name: "&eWant a key?"
+      lore:
+        - "&7Get a key by purchasing"
+        - "&7from our store."
+        - ""
+        - "&estore.server.com"
+      material: "ARROW"
+
+crate-rewards:
+  53:
+    chance: 1
+    command: "give {player} creeperegg 1"
+    name: ""
+    lore: []
+    material: "MONSTER_EGG"
+    data: 50
+    amount: 1
+    glow: false
+  52:
+    chance: 70
+    command: "give {player} diamondhelmet 1 protection:5"
+    message:
+      - ""
+    name: ""
+    lore: []
+    material: "DIAMOND_HELMET"
+    data: 0
+    amount: 1
+    enchantments:
+      - "PROTECTION:5"
+      - "UNBREAKING:3"

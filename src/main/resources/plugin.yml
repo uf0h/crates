@@ -1,0 +1,6 @@
+name: Crates
+version: ${project.version}
+main: me.ufo.crates.CratesPlugin
+commands:
+  crate:
+    aliases: [crates]
